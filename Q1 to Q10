@@ -1,0 +1,56 @@
+#                     Assignment No.4
+#                    User Input Problems
+#1. Write a python script to take your name as input from the user and then print it.
+x=input("Enetr your Name")
+print(x)
+#2. Write a python script to take input from the user. Input must be a number.
+x=int(input("Enter a number"))
+print(x)
+
+#3. Write a python script which takes two numbers from the user, then calculate their sum and display the result.
+x=int(input("Enter a first number"))
+y=int(input("Enter a Second number"))
+z=x+y
+print("Sum is",z)
+
+#4. Write a python script which takes the radius from the user and display area of a circle.
+r=float(input(" enter the radius"))
+print("area of circle",3.14*r*r)
+
+#5. Write a python script to calculate the square of a number. Number is entered by the user.
+x=int(input("Enter a integer number:"))
+square=x**2
+print(square)
+#6. Write a python script to calculate the area of Triangle. Number is entered by the user.
+b=int(input("Enter base"))
+h=int(input("Enter height"))
+area=1/2*b*h
+print("The area of triangle is:", area)
+
+#7. Write a python script to calculate average of three numbers, entered by the user
+#7. Write a python script to calculate average of three numbers, entered by the user
+a=int(input("Enter a first number"))
+b=int(input("Enter a Second number"))
+c=int(input("Enter a third number"))
+avg=(a+b+c)/3
+print(avg)
+
+#8. Write a python script to calculate simple interest
+p=float(input("Enter principle amount"))
+r=float(input("Enter rate of interest:"))
+t=float(input("Enter time:"))
+si=p*r*t/100
+print("Simple Interest is",si)
+
+#9. Write a python script to calculate the volume of a cuboid.
+print("Enter lenth,breadth and height of cuboid")
+l,b,h=float(input()),float(input()),float(input())
+v=l*b*h
+print("Volume is",v)
+
+#10. Write a python script to calculate area of a rectangle
+l=int(input("Enter length of rectangle:"))
+b=int(input("Enter breath of rectangle:"))
+area=l*b
+print("Area of rectangle is:",area)
+
